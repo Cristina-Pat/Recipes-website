@@ -1,0 +1,171 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
+    letter-spacing: normal;
+    display: grid;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #0c5f5f;
+    height: 35px;
+    width: 100%;
+}
+
+.first-nav {
+    grid-area: right;  
+}
+
+.registration {
+    grid-area: left;
+}
+
+.ribbon-nav {
+    width: 980px;
+    display: grid;
+    grid-template-areas: 'right right right left left';
+    align-items: center;
+    padding: 0.5rem 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 0.2px solid black;
+}
+
+nav ul,
+.registration ul {
+    list-style-type: none;
+    padding: 0rem;
+    margin: 0rem;
+    font-size: 0.9rem;
+}
+
+nav li, 
+.registration li {
+    display: inline-block;
+      
+}
+
+.next {
+    border-left: 3px solid #fff;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+nav li a, 
+.registration li a {
+    color: #fff;
+    padding:  0.3rem;
+    text-decoration: none;
+}
+
+nav li a:hover, 
+.registration li a:hover {
+    text-decoration: underline 0.1rem;
+}
+
+.registration-icon{
+    color: #fff;
+    font-size: 1.30rem;
+}
+
+.logo {
+    grid-area: logo;
+}
+
+.search-field {
+    grid-area: search;
+}
+
+.ribbon-search {
+    width: 100%;
+    height: 110px;
+    
+
+}
+
+.brand {
+    width: 980px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-areas: 'logo search';
+}
+
+.search {
+    display: flex;
+    width: 271px;
+}
+
+input {
+    box-sizing: border-box;
+    font-size: 15px;
+    padding: 13px;
+    border: 1.5px solid #bdbdbd;
+}
+
+.main-nav {
+    width: 980px;
+    background-color: #fff;
+    border-bottom: 1px solid #bdbdbd;
+    border-top: 1px solid #bdbdbd;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.stack {
+    background-color: #be2a77;
+    width: 50px;
+}
+
+.magnifying-glass {
+    color:#fff;
+    font-size: 2.40rem;
+    padding: 0.2rem;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: -15px;
+    margin-right: auto;
+    padding-right: 0rem;
+}
+.nav-item {
+    background-color: #fff;
+    color: #333;
+    height: 100%;
+    width: auto;
+    border: none;
+    position: relative;
+    list-style-type: none;
+    
+}
+
+.nav-text {
+    font-size: 1.125rem;
+}
+
+.nav-link {
+    align-items: baseline;
+    display: flex;
+    height: 100%;
+    padding: 15px;
+}
+ 
+.nav-icon {
+    padding: 1px;
+    color: #be2a77;
+    font-size: 1.5rem;
+}
