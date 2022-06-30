@@ -113,14 +113,10 @@ input {
 }
 
 .main-nav {
-    width: 980px;
     background-color: #fff;
     border-bottom: 1px solid #bdbdbd;
     border-top: 1px solid #bdbdbd;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+
 }
 
 .stack {
@@ -135,14 +131,20 @@ input {
 }
 
 .nav-list {
+    width: 980px;
     display: flex;
     align-items: center;
     flex-direction: row;
-    margin-left: -15px;
+    margin-left: auto;
     margin-right: auto;
-    padding-right: 0rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+
 }
-.nav-item {
+.nav-item, 
+.nav-item-wildcard {
     background-color: #fff;
     color: #333;
     height: 100%;
@@ -155,9 +157,12 @@ input {
 
 .nav-text {
     font-size: 1.125rem;
+    padding-top: 1px;
 }
 
-.nav-link {
+.nav-link, 
+.nav-link-special, 
+.nav-link-subscription {
     align-items: baseline;
     display: flex;
     height: 100%;
@@ -168,4 +173,19 @@ input {
     padding: 1px;
     color: #be2a77;
     font-size: 1.5rem;
+}
+a.nav-link:hover {
+    background-color: #bdbdbd;
+}
+.fa-caret-down {
+    position: relative;
+    left: 3px;
+    bottom: -3px;
+}
+a.nav-link-special {
+    color: #be2a77;
+}
+
+a.nav-link-subscription {
+    color: #447d75;
 }
