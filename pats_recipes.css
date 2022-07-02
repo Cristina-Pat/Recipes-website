@@ -242,3 +242,35 @@ section h2 {
     letter-spacing: -0.0625rem;
     margin: 0px;
 }
+
+.recipes {
+    width: 980px;
+}
+
+.recipes-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.img-recipe {
+    display: block;
+}
+
+.photo-recipe {
+    height: 187.5px;
+    width: 250px;
+    margin: 0px;
+    padding: 0px;
+    display: block;
+}
+
+.recipe-info {
+    margin: 0px;
+    padding: 0px;
+    width: 250px;
+    background-color: #fff;
+}
+h4 {
+    margin: 0px;
+}
