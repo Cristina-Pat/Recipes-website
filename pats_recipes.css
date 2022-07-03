@@ -1,5 +1,3 @@
-
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.125rem;
@@ -8,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 header {
     background-color: #0c5f5f;
     height: 35px;
@@ -15,7 +14,7 @@ header {
 }
 
 .first-nav {
-    grid-area: right;  
+    grid-area: right;
 }
 
 .registration {
@@ -41,10 +40,9 @@ nav ul,
     font-size: 0.9rem;
 }
 
-nav li, 
+nav li,
 .registration li {
     display: inline-block;
-      
 }
 
 .next {
@@ -56,19 +54,19 @@ a {
     text-decoration: none;
 }
 
-nav li a, 
+nav li a,
 .registration li a {
     color: #fff;
-    padding:  0.3rem;
+    padding: 0.3rem;
     text-decoration: none;
 }
 
-nav li a:hover, 
+nav li a:hover,
 .registration li a:hover {
     text-decoration: underline 0.1rem;
 }
 
-.registration-icon{
+.registration-icon {
     color: #fff;
     font-size: 1.30rem;
 }
@@ -84,8 +82,6 @@ nav li a:hover,
 .ribbon-search {
     width: 100%;
     height: 110px;
-    
-
 }
 
 .brand {
@@ -116,7 +112,6 @@ input {
     background-color: #fff;
     border-bottom: 1px solid #bdbdbd;
     border-top: 1px solid #bdbdbd;
-
 }
 
 .stack {
@@ -125,7 +120,7 @@ input {
 }
 
 .magnifying-glass {
-    color:#fff;
+    color: #fff;
     font-size: 2.40rem;
     padding: 0.2rem;
 }
@@ -141,9 +136,9 @@ input {
     margin-bottom: 0px;
     padding-left: 20px;
     padding-right: 20px;
-
 }
-.nav-item, 
+
+.nav-item,
 .nav-item-wildcard {
     background-color: #fff;
     color: #333;
@@ -152,17 +147,16 @@ input {
     border: none;
     position: relative;
     list-style-type: none;
-    
 }
 
-.nav-text, 
+.nav-text,
 .container {
     font-size: 1.11rem;
     padding-top: 1px;
 }
 
-.nav-link, 
-.nav-link-special, 
+.nav-link,
+.nav-link-special,
 .nav-link-subscription {
     align-items: baseline;
     display: flex;
@@ -171,27 +165,30 @@ input {
     padding-top: 15px;
     padding-right: 23px;
 }
- 
+
 .nav-icon {
     padding: 1px;
     color: #be2a77;
     font-size: 1.5rem;
 }
-a.nav-link:hover, 
+
+a.nav-link:hover,
 a.nav-link-special:hover,
 a.nav-link-subscription:hover {
     background-color: #bdbdbd;
 }
+
 .fa-caret-down {
     position: relative;
     left: 3px;
     bottom: -3px;
 }
+
 a.nav-link-special,
 a.nav-link-subscription {
     position: relative;
     padding-bottom: 9px;
-} 
+}
 
 a.nav-link-special {
     color: #be2a77;
@@ -205,7 +202,7 @@ main {
     background-color: #e2e2e2;
 }
 
-.container, 
+.container,
 .heading,
 section {
     font-family: Georgia, Times, serif;
@@ -228,13 +225,14 @@ section {
     letter-spacing: -0.0625rem;
 }
 
-.heading p{
+.heading p {
     font-weight: lighter;
     text-align: center;
     font-size: 1rem;
     line-height: 1.6rem;
     letter-spacing: normal;
 }
+
 section h2 {
     font-size: 2rem;
     font-weight: lighter;
@@ -250,7 +248,7 @@ section h2 {
 .recipes-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 50px;
+    gap: 30px;
 }
 
 .img-recipe {
@@ -258,8 +256,8 @@ section h2 {
 }
 
 .photo-recipe {
-    height: 187.5px;
-    width: 250px;
+    height: 201.5px;
+    width: 283px;
     margin: 0px;
     padding: 0px;
     display: block;
@@ -268,9 +266,10 @@ section h2 {
 .recipe-info {
     margin: 0px;
     padding: 0px;
-    width: 250px;
+    width: 283px;
     background-color: #fff;
 }
+
 h4 {
     margin: 0px;
 }
