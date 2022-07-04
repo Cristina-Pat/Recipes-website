@@ -251,6 +251,12 @@ section h2 {
     gap: 30px;
 }
 
+.recipe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .img-recipe {
     display: block;
 }
@@ -275,4 +281,5 @@ section h2 {
 
 h4 {
     margin: 0px;
+    padding: 15px;
 }
