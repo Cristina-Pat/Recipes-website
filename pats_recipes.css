@@ -265,8 +265,11 @@ section h2 {
 
 .recipe-info {
     margin: 0px;
-    padding: 0px;
+    padding: 14px;
     width: 283px;
+    height: 76px;
+    box-sizing: border-box;
+    text-align: left;
     background-color: #fff;
 }
 
