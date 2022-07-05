@@ -205,7 +205,6 @@ main {
 .container,
 .heading,
 section {
-    font-family: Georgia, Times, serif;
     font-weight: lighter;
     position: relative;
     padding-left: 20px;
@@ -218,6 +217,7 @@ section {
 }
 
 .heading h1 {
+    font-family: Georgia, Times, serif;
     font-weight: lighter;
     text-align: center;
     font-size: 2.3rem;
@@ -234,7 +234,7 @@ section {
 }
 
 section h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: lighter;
     line-height: 2.5rem;
     letter-spacing: -0.0625rem;
@@ -249,6 +249,7 @@ section h2 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
+    margin-top: 5px;
 }
 
 .recipe {
@@ -262,8 +263,7 @@ section h2 {
 }
 
 .photo-recipe {
-    height: 201.5px;
-    width: 283px;
+    width: 306px;
     margin: 0px;
     padding: 0px;
     display: block;
@@ -272,8 +272,8 @@ section h2 {
 .recipe-info {
     margin: 0px;
     padding: 14px;
-    width: 283px;
-    height: 76px;
+    width: 306px;
+    height: 70px;
     box-sizing: border-box;
     text-align: left;
     background-color: #fff;
