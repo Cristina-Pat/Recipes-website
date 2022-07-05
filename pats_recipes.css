@@ -286,14 +286,25 @@ h4 {
 
 .standard-section {
     background-color: #fff;
-    padding: 20px 0;
+    padding: 18px 0;
     line-height: 0;
     margin-top: 20px;
+    margin-bottom: 50px;
     text-align: center;
+}
+
+.standard-section_button {
+    margin: 10px 0px;
 }
 
 .button {
     background-color: #be2a77;
+    border-radius: 3px;
     color: #fff;
-    padding: 10px 20px;
+    padding: 10px 45px;
+    text-transform: none;
+    letter-spacing: -0.03rem;
+    line-height: 1.625rem;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
 }
