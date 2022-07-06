@@ -19,12 +19,13 @@ header {
 
 .registration {
     grid-area: left;
+    margin-left: auto;
 }
 
 .ribbon-nav {
     width: 980px;
     display: grid;
-    grid-template-areas: 'right right right left left';
+    grid-template-areas: 'right right right right left';
     align-items: center;
     padding: 0.5rem 2rem;
     margin-left: auto;
