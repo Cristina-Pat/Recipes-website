@@ -110,6 +110,14 @@ input {
     border: 1.5px solid #bdbdbd;
 }
 
+input:focus {
+    outline: none;
+    border-left-color: #719ECE;
+    border-top-color: #719ECE;
+    border-bottom-color: #719ECE;
+    border-block-width: 2px;
+}
+
 .main-nav {
     background-color: #fff;
     border-bottom: 1px solid #bdbdbd;
