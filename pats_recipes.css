@@ -99,7 +99,8 @@ nav li a:hover,
 
 .search {
     display: flex;
-    width: 271px;
+    width: 260px;
+    margin-left: auto;
 }
 
 input {
@@ -117,13 +118,14 @@ input {
 
 .stack {
     background-color: #be2a77;
-    width: 50px;
+    width: 48px;
 }
 
 .magnifying-glass {
     color: #fff;
-    font-size: 2.40rem;
-    padding: 0.2rem;
+    font-size: 1.6rem;
+    position: relative;
+    padding: 0.7rem;
 }
 
 .nav-list {
@@ -151,9 +153,14 @@ input {
 }
 
 .nav-text,
+.nav-text_subscribe,
 .container {
     font-size: 1.11rem;
     padding-top: 1px;
+}
+
+.nav-text_subscribe {
+    margin-left: auto;
 }
 
 .nav-link,
