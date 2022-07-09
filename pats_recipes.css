@@ -63,7 +63,8 @@ nav li a,
 }
 
 nav li a:hover,
-.registration li a:hover {
+.registration li a:hover,
+.breadcrumb_item li a:hover {
     text-decoration: underline 0.1rem;
 }
 
@@ -134,7 +135,8 @@ input:focus {
     padding: 0.7rem;
 }
 
-.nav-list {
+.nav-list,
+.breadcrumb {
     width: 980px;
     display: flex;
     align-items: center;
@@ -148,8 +150,9 @@ input:focus {
 }
 
 .nav-item,
-.nav-item-wildcard {
-    background-color: #fff;
+.nav-item-wildcard,
+.breadcrumb_item {
+    background-color: transparent;
     color: #333;
     height: 100%;
     width: auto;
@@ -321,4 +324,18 @@ h4 {
     line-height: 1.625rem;
     font-family: Arial, Arial, Helvetica, sans-serif;
     font-size: 1.1rem;
+}
+
+.breadcrumb {
+    font-size: 0.9rem;
+    padding: 15px 0 0;
+    margin: 0 0 20px;
+}
+
+.breadcrumb_item {
+    padding-right: 8px;
+}
+
+.breadcrumb_icon {
+    background-image: none;
 }

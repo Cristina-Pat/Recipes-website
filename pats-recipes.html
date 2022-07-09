@@ -120,7 +120,29 @@
 
 
     <main>
-        <div class="container">Home > Recipes </div>
+        <div class="container">
+            <ol class="breadcrumb" itemscope itemtype="http://schema.org/BreadcrumbList">
+                <li class="breadcrumb_item" itemprop="itemListElement" itemscope itemtype="http://schema.org/BreadcrumbList">
+                    <a href="https://www.bbcgoodfood.com/"> Home </a>
+                    <meta itemprop="position" content="1" />
+                </li>
+                <li class="breadcrumb_item">
+                    <span class="breadcrumb_icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" 
+                                width="6"
+                                height="10" 
+                                viewBox="0 0 6 10">
+                            <path fill="#343434" 
+                                  fill-rule="evenodd" 
+                                  d="M174.932 5L170 10 174.932 15 175.556 14.33 171.285 10 175.556 5.671z" 
+                                  transform="rotate(-180 87.778 7.5)">
+                            </path>
+                        </svg>
+                    </span>
+                    <a href="https://www.bbcgoodfood.com/recipes"><b> Recipes</b></a>
+                </li>
+            </ol>
+        </div>
         <div class="heading">
             <h1>Recipe inspiration</h1>
             <p>Whether you're after on old favourite or inspiration for somesthing new, we have the perfect recipe.
