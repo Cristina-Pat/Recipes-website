@@ -221,7 +221,7 @@ main {
 
 .container,
 .heading,
-section {
+section, .footer-ribbon {
     font-weight: lighter;
     position: relative;
     padding-left: 20px;
@@ -340,6 +340,6 @@ h4 {
 .breadcrumb_icon {
     background-image: none;
 }
-.footer-ribbon {
+footer {
     background-color: #333;
 }
