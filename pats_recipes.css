@@ -34,7 +34,8 @@ header {
 }
 
 nav ul,
-.registration ul {
+.registration ul, 
+.media ul {
     list-style-type: none;
     padding: 0rem;
     margin: 0rem;
@@ -42,7 +43,8 @@ nav ul,
 }
 
 nav li,
-.registration li {
+.registration li, 
+.media li {
     display: inline-block;
 }
 
@@ -56,7 +58,8 @@ a {
 }
 
 nav li a,
-.registration li a {
+.registration li a, 
+.footer-ribbon li i {
     color: #fff;
     padding: 0.3rem;
     text-decoration: none;
@@ -342,4 +345,7 @@ h4 {
 }
 footer {
     background-color: #333;
+}
+.footer-ribbon {
+    display: flex;
 }
