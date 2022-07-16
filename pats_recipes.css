@@ -349,3 +349,6 @@ footer {
 .footer-ribbon {
     display: flex;
 }
+.logo-footer {
+    align-self: center;
+}
