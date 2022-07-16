@@ -348,7 +348,15 @@ footer {
 }
 .footer-ribbon {
     display: flex;
+    padding-right: 25px;
 }
 .logo-footer {
     align-self: center;
+}
+.media i{
+    font-size: 1.3rem;
+}
+.media a {
+    
+    padding-right: 10px;
 }
