@@ -59,7 +59,9 @@ a {
 
 nav li a,
 .registration li a, 
-.footer-ribbon li i {
+.footer-ribbon li i, 
+.footer-lower li, 
+.footer-lower li span {
     color: #fff;
     padding: 0.3rem;
     text-decoration: none;
@@ -224,7 +226,8 @@ main {
 
 .container,
 .heading,
-section, .footer-ribbon {
+section, .footer-ribbon, 
+.footer-lower span{
     font-weight: lighter;
     position: relative;
     padding-left: 20px;
