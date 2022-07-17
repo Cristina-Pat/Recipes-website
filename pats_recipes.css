@@ -357,6 +357,8 @@ footer {
     font-size: 1.3rem;
 }
 .media a {
-    
     padding-right: 10px;
+}
+.footer-lower {
+    background-color: rgb(116, 114, 114);
 }
