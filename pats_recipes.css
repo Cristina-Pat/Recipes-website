@@ -345,6 +345,8 @@ h4 {
 }
 footer {
     background-color: #333;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 .footer-ribbon {
     display: flex;
