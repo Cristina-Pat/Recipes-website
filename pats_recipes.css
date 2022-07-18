@@ -44,7 +44,8 @@ nav ul,
 
 nav li,
 .registration li, 
-.media li {
+.media li, 
+.footer-lower li {
     display: inline-block;
 }
 
