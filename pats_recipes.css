@@ -60,9 +60,7 @@ a {
 
 nav li a,
 .registration li a, 
-.footer-ribbon li i, 
-.footer-lower li, 
-.footer-lower li span {
+.footer-ribbon li i {
     color: #fff;
     padding: 0.3rem;
     text-decoration: none;
@@ -356,6 +354,7 @@ footer {
     display: flex;
     padding-right: 25px;
 }
+
 .logo-footer {
     align-self: center;
 }
@@ -367,4 +366,7 @@ footer {
 }
 .footer-lower {
     background-color: rgb(116, 114, 114);
+}
+.footer-lower span {
+    color: #fff;
 }
