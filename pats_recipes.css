@@ -228,7 +228,8 @@ main {
 .container,
 .heading,
 section, .footer-ribbon, 
-.footer-info {
+.footer-info, 
+.disclaimer {
     font-weight: lighter;
     position: relative;
     padding-left: 20px;
@@ -390,4 +391,19 @@ footer {
 }
 .footer-info span {
     color: #fff;
+}
+.disclaimer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.copyright-text{
+    font-size: medium;
+    line-height: 1rem;
+    position: relative;
+    top: calc(1rem - 20px);
+    color: #fff;
+    display: block;
+    margin-top: 20px;
 }
