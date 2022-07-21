@@ -370,6 +370,10 @@ footer {
     background-color: rgb(116, 114, 114);
     padding-bottom: 15px;
 }
+.footer-info {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 15px;
+}
 .footer-info li::before {
     background: #fff;
     width: 3px;
