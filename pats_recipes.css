@@ -372,7 +372,6 @@ footer {
     padding-bottom: 15px;
 }
 .footer-info {
-    border-bottom: 1px solid #fff;
     padding-bottom: 15px;
 }
 .footer-info li::before {
@@ -397,6 +396,7 @@ footer {
     flex-wrap: wrap;
     align-items: flex-start;
     padding: 0;
+    border-top: 1px solid #fff;  
 }
 
 .corporate-logo {
@@ -404,13 +404,18 @@ footer {
 }
 
 .copyright-text small{
-    line-height: 1rem;
+    line-height: 1.5rem;
     position: relative;
     top: calc(1rem - 20px);
     color: #fff;
     display: block;
     margin-top: 20px;
 }
+.copyright-text {
+    flex: 1;
+    margin-right: 60px;
+}
+
 .BBC-logo {
     width: 80px;
     height: 38px;
