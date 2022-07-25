@@ -142,7 +142,8 @@ input:focus {
 }
 
 .nav-list,
-.breadcrumb {
+.breadcrumb, 
+.justify-content-center {
     width: 980px;
     display: flex;
     align-items: center;
@@ -278,7 +279,8 @@ section h2 {
     margin-bottom: 50px;
 }
 
-.recipe {
+.recipe, 
+ .justify-content-center {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -422,4 +424,11 @@ footer {
     display: block;
     padding-left: 1rem;
     margin-top: 20px;
+}
+.newsletter-sign-up {
+    background-color: #bdbdbd;
+    text-align: center;
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
 }
