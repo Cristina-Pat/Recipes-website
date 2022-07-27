@@ -452,5 +452,12 @@ span.standard-button_visible {
 }
 .form-control {
     margin-left: 10px;
+}
 
+.heading-newsletter-sign-up {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.75rem;
+    line-height: 2.25rem;
+    letter-spacing: -.0625rem;
+    margin-bottom: 15px;
 }
