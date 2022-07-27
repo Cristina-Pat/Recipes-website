@@ -480,6 +480,24 @@ span.standard-button_visible {
     border-radius: 3px;
     padding: 10px;
     text-shadow: none;
-    
+}
 
+.col {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+}
+.body-copy-extra-small {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.85rem;
+    line-height: 1.30rem;
+    letter-spacing: normal;
+    color: #333;
+    text-transform: none;
+    /*margin: 20px 0px;*/
+}
+
+a.link-copy {
+    color: #be2a77;
+    text-decoration: underline;
 }
