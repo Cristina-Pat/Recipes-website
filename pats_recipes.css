@@ -132,6 +132,9 @@ input:focus {
 .stack {
     background-color: #be2a77;
     width: 48px;
+    height: 100%;
+    position: relative;
+    top: 2px !important;
 }
 
 .magnifying-glass {
