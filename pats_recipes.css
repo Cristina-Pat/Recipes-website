@@ -502,4 +502,8 @@ span.standard-button_visible {
 a.link-copy {
     color: #be2a77;
     text-decoration: underline;
+} 
+.col-md-5 {
+    display: flex;
+    flex-direction: column;
 }
