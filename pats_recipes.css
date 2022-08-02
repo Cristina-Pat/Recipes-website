@@ -294,7 +294,7 @@ section h2 {
 }
 
 .photo-recipe {
-    width: 306px;
+    width: 100%;
     margin: 0px;
     padding: 0px;
     display: block;
@@ -512,7 +512,7 @@ a.link-copy {
 }
 
 @media only screen and (max-width: 720px){
-    .recipes-containerß {
+    .recipes-container {
         width: 720px;
     }
 }
