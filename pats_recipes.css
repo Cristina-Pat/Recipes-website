@@ -510,3 +510,9 @@ a.link-copy {
     display: flex;
     flex-direction: column;
 }
+
+@media only screen and (max-width: 720px){
+    .recipes-containerß {
+        width: 720px;
+    }
+}
